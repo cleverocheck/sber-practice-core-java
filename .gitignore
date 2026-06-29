@@ -1,0 +1,41 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Игнорируем всё в .idea
+.idea/
+
+# НО! Разрешаем (не игнорируем) важные общие настройки:
+!.idea/codeStyles/
+!.idea/codeStyleConfig.xml
+!.idea/inspectionProfiles/
+!.idea/encodings.xml
+!.idea/vcs.xml
+!.idea/runConfigurations/
