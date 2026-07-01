@@ -28,14 +28,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-# Игнорируем всё в .idea
-.idea/
-
-# НО! Разрешаем (не игнорируем) важные общие настройки:
-!.idea/codeStyles/
-!.idea/codeStyleConfig.xml
-!.idea/inspectionProfiles/
-!.idea/encodings.xml
-!.idea/vcs.xml
-!.idea/runConfigurations/
