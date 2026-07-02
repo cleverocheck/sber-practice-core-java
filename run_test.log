@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] sber-practice-core-java                                            [pom]
+[INFO] day1                                                               [jar]
+[INFO] day2                                                               [jar]
+[INFO] day3-maven-task                                                    [jar]
+[INFO] day3-oop                                                           [jar]
+[INFO] day3-ext-oop                                                       [jar]
+[INFO] day3-solid                                                         [jar]
+[INFO]
+[INFO] -------------< core.practice.sber:sber-practice-core-java >-------------
+[INFO] Building sber-practice-core-java 1.0-SNAPSHOT                      [1/7]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] ----------------------< core.practice.sber:day1 >-----------------------
+[INFO] Building day1 1.0-SNAPSHOT                                         [2/7]
+[INFO]   from day1/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ day1 ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ day1 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ day1 ---
+[INFO] skip non existing resourceDirectory /Users/ignatlomkov/projects/sber-practice-core-java3/day1/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ day1 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- surefire:3.3.0:test (default-test) @ day1 ---
+[INFO] No tests to run.
+[INFO]
+[INFO] ----------------------< core.practice.sber:day2 >-----------------------
+[INFO] Building day2 1.0-SNAPSHOT                                         [3/7]
+[INFO]   from day2/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ day2 ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ day2 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ day2 ---
+[INFO] skip non existing resourceDirectory /Users/ignatlomkov/projects/sber-practice-core-java3/day2/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ day2 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- surefire:3.3.0:test (default-test) @ day2 ---
+[INFO] No tests to run.
+[INFO]
+[INFO] -----------------< core.practice.sber:day3-maven-task >-----------------
+[INFO] Building day3-maven-task 1.0-SNAPSHOT                              [4/7]
+[INFO]   from day3-maven-task/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ day3-maven-task ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ day3-maven-task ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ day3-maven-task ---
+[INFO] skip non existing resourceDirectory /Users/ignatlomkov/projects/sber-practice-core-java3/day3-maven-task/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ day3-maven-task ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[INFO]
+[INFO] --- surefire:3.3.0:test (default-test) @ day3-maven-task ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running core.practice.sber.SorterTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in core.practice.sber.SorterTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --------------------< core.practice.sber:day3-oop >---------------------
+[INFO] Building day3-oop 1.0-SNAPSHOT                                     [5/7]
+[INFO]   from day3-oop/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ day3-oop ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ day3-oop ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ day3-oop ---
+[INFO] skip non existing resourceDirectory /Users/ignatlomkov/projects/sber-practice-core-java3/day3-oop/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ day3-oop ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- surefire:3.3.0:test (default-test) @ day3-oop ---
+[INFO] No tests to run.
+[INFO]
+[INFO] ------------------< core.practice.sber:day3-ext-oop >-------------------
+[INFO] Building day3-ext-oop 1.0-SNAPSHOT                                 [6/7]
+[INFO]   from day3-ext-oop/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ day3-ext-oop ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ day3-ext-oop ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ day3-ext-oop ---
+[INFO] skip non existing resourceDirectory /Users/ignatlomkov/projects/sber-practice-core-java3/day3-ext-oop/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ day3-ext-oop ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- surefire:3.3.0:test (default-test) @ day3-ext-oop ---
+[INFO] No tests to run.
+[INFO]
+[INFO] -------------------< core.practice.sber:day3-solid >--------------------
+[INFO] Building day3-solid 1.0-SNAPSHOT                                   [7/7]
+[INFO]   from day3-solid/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ day3-solid ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ day3-solid ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ day3-solid ---
+[INFO] skip non existing resourceDirectory /Users/ignatlomkov/projects/sber-practice-core-java3/day3-solid/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ day3-solid ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- surefire:3.3.0:test (default-test) @ day3-solid ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for sber-practice-core-java 1.0-SNAPSHOT:
+[INFO]
+[INFO] sber-practice-core-java ............................ SUCCESS [  0.001 s]
+[INFO] day1 ............................................... SUCCESS [  0.300 s]
+[INFO] day2 ............................................... SUCCESS [  0.017 s]
+[INFO] day3-maven-task .................................... SUCCESS [  0.660 s]
+[INFO] day3-oop ........................................... SUCCESS [  0.013 s]
+[INFO] day3-ext-oop ....................................... SUCCESS [  0.014 s]
+[INFO] day3-solid ......................................... SUCCESS [  0.015 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.094 s
+[INFO] Finished at: 2026-07-02T21:20:14+03:00
+[INFO] ------------------------------------------------------------------------
