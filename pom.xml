@@ -21,6 +21,7 @@
         <module>day4-generic</module>
         <module>day4-collections</module>
         <module>day4-ext</module>
+        <module>day5</module>
     </modules>
 
     <properties>

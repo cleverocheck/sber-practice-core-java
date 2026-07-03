@@ -1,8 +1,26 @@
 package core.practice.sber;
 
 public class Node<T> {
-    T value;
-    Node<T> next;
+    private T value;
+
+    public T getValue() {
+        return value;
+    }
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    private Node<T> next;
+
+    public Node<T> getNext() {
+        return next;
+    }
+
+    public void setNext(Node<T> next) {
+        this.next = next;
+    }
+
 
     public Node(T value) {
         this.value = value;
