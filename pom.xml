@@ -22,6 +22,9 @@
         <module>day4-collections</module>
         <module>day4-ext</module>
         <module>day5</module>
+        <module>day6</module>
+        <module>day6-reflection</module>
+        <module>day6-annotations</module>
     </modules>
 
     <properties>
