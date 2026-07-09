@@ -27,6 +27,7 @@
         <module>day6-annotations</module>
         <module>day7</module>
         <module>day8</module>
+        <module>day9</module>
     </modules>
 
     <properties>
